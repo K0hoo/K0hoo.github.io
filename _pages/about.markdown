@@ -5,22 +5,27 @@ permalink: /about/
 author_profile: true
 ---
 
-<center><h1>Younghoo Kwon</h1>
-(+82)10-3672-7066&nasp;&nasp;&nasp;younghookwon@gm.gist.ac.kr</center>
+[CV download][1]
+[1]: {{ site.url }}/download/younghookwon_cv.pdf
 
-## Education
+<div id='CV'>
+<center>younghookwon@gm.gist.ac.kr</center>
+<hr>
+<div class='sub_title'>Education</div>
 
+<hr>
+<div class='sub_title'>Research Experience</div>
 
-## Research Experience
+<hr>
+<div class='sub_title'>Teaching Experience</div>
 
+<hr>
+<div class='sub_title'>Skills & Language</div>
 
-## Teaching Experience
+<hr>
+<div class='sub_title'>Scholarship</div>
 
-
-## Skills & Language
-
-
-## Scholarship
+</div>
 
 
 
