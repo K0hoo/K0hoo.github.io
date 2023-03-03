@@ -5,8 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-[CV download][1]
-[1]: {{ site.url }}/download/younghookwon_cv.pdf
+[CV download](cv)
 
 <div id='CV'>
 <center>younghookwon@gm.gist.ac.kr</center>
@@ -27,7 +26,7 @@ author_profile: true
 
 </div>
 
-
+[cv]: {{ site.url }}/download/younghookwon_cv.pdf
 
 <!--
 ## ME
