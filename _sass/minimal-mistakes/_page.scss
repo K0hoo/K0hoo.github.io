@@ -27,7 +27,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .initial-content,
@@ -111,9 +111,12 @@ body {
 	}
 
   p,
-  li,
   dl {
     font-size: 1em;
+  }
+
+  li {
+    font-size: 0.9em;
   }
 
   /* paragraph indents */
