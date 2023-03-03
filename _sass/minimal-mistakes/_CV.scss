@@ -5,10 +5,49 @@
 #CV {
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #868e96;
+}
 
+.font_bold {
+    color: #495057;
+    font-weight: 600;
+}
+
+.font_bold_hard {
+    color: #3d4144;
+    font-weight: 700;
+}
+
+.font_light {
+    color: #ced4da;
+    font-weight: 200;
+}
+
+.entry_component {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entry_component_skill {
+    display: flex;
+    .col_left {
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
 }
 
 .sub_title {
     font-size: xx-large;
-    font-weight: 700;
+}
+
+.component_title {
+    font-size: x-large;
+}
+
+.col_right {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }

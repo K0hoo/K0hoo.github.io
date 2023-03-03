@@ -1,29 +1,104 @@
 ---
 layout: single
-title: YoungHoo Kwnon (0hoo)
+title: YoungHoo Kwon (0hoo)
 permalink: /about/
 author_profile: true
 ---
 
-[CV download](cv)
+> [CV download]({{ site.url }}/download/younghookwon_cv.pdf)
 
 <div id='CV'>
-<center>younghookwon@gm.gist.ac.kr</center>
-<hr>
-<div class='sub_title'>Education</div>
-
-<hr>
-<div class='sub_title'>Research Experience</div>
-
-<hr>
-<div class='sub_title'>Teaching Experience</div>
-
-<hr>
-<div class='sub_title'>Skills & Language</div>
-
-<hr>
-<div class='sub_title'>Scholarship</div>
-
+    <center>younghookwon@gm.gist.ac.kr</center>
+    <hr>
+    <div class='big_entry'>
+        <div class='sub_title font_bold_hard'>Education</div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>
+                <div class='component_title font_bold'>
+                    Gwangju Institute of Science and Technology(GIST)
+                </div>
+                <div class='conponent_list'>
+                    <div class='component_li'>Bachelor of Science in <span class='font_bold'>Electrical Engineering and Computer Science</span></div>
+                    <div class='component_li'>Minor in <span class='font_bold'>Mathematics</span>, <span class='font_bold'>AI</span></div>
+                    <div class='component_li'>Current TGPA <span class='font_bold'>4.24</span>/4.5 Major GPA <span class='font_bold'>4.5</span>/4.5</div>
+                </div>
+            </div>
+            <div class='component_col col_right'>
+                <div class='location font_light'>Gwangju, S. Korea</div>
+                <div class='duration font_light'>Mar. 2017 - present</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class='big_entry'>
+        <div class='sub_title font_bold_hard'>Research Experience</div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>
+                <div class='component_title font_bold'>
+                    Research Intern
+                </div>
+                <div class='conponent_list'>
+                    <div class='component_li'>Speech and Audio Processing Lab(SAPL), GIST</div>
+                    <div class='component_li'>Advisor: JongWon Shin</div>
+                    <div class='component_li'>Research Area: Speech Enhancement</div>
+                </div>
+            </div>
+            <div class='component_col col_right'>
+                <div class='duration font_light'>Jun. 2022 - present</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class='big_entry'>
+        <div class='sub_title font_bold_hard'>Teaching Experience</div>
+        <div class='component_title font_bold'>Teaching Assistant</div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>Computer Programming(GS1401)</div>
+            <div class='component_col col_right duration font_light'>Jun. 2022 - present</div>
+        </div>
+    </div>    
+    <hr>
+    <div class='big_entry'>
+        <div class='sub_title font_bold'>Skills & Language</div>
+        <div class='entry_component_skill'>
+            <div class='component_col col_left font_bold'>
+                <div>Programming</div>
+                <div>Language</div>
+            </div>
+            <div class='component_col'>
+                <div>C(C++), python(pytorch)</div>
+                <div><span class='font_bold'>Korean</span> Native, <span class='font_bold'>English</span> TOEIC 855, <span class='font_bold'>Japanese</span> JLPT N2</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class='big_entry'>
+        <div class='sub_title font_bold'>Scholarship</div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>KEPCO Electrical Engineering Scholarship</div>
+            <div class='component_col col_right font_light duration'>Spring 2023 - present</div>
+        </div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>National Study-Work Program</div>
+            <div class='component_col col_right font_light duration'>Spring 2022 - present</div>
+        </div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>Government Funded Scholarship for GIST Undergraduate Student</div>
+            <div class='component_col col_right font_light duration'>Spring 2017 - present</div>
+        </div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>Multi-Child Grant</div>
+            <div class='component_col col_right font_light duration'>Spring 2022 - Fall 2022</div>
+        </div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>LOTTE Scholarship Foundation-GIST Scholarship</div>
+            <div class='component_col col_right font_light duration'>Summer 2019</div>
+        </div>
+        <div class='entry_component'>
+            <div class='component_col col_left'>The National Scholarship for Science and Engineering</div>
+            <div class='component_col col_right font_light duration'>Spring 2017 - Spring 2019</div>
+        </div>
+    </div>
 </div>
 
 [cv]: {{ site.url }}/download/younghookwon_cv.pdf
