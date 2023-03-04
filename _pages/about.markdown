@@ -41,7 +41,7 @@ author_profile: true
                 </div>
                 <div class='conponent_list'>
                     <div class='component_li'>
-                        <a href='https://sapl.gist.ac.kr/'>
+                        <a href='https://sapl.gist.ac.kr/' target='blank'>
                             Speech and Audio Processing Lab(SAPL), GIST
                         </a>
                     </div>
