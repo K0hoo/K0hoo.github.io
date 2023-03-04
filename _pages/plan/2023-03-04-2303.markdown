@@ -1,0 +1,32 @@
+---
+layout: single
+permalink: /2303
+title: "2023년 3월 계획"
+date: 2023-03-04
+categories:
+author_profile: true
+comments: false
+---
+
+## 2023년 1학기 수강 내역
+
+- Digital Speech Processing [_post_]({{ sites.url }})
+- Swimming
+- Abstract Algebra [_post_]({{ sites.url }})
+- Data Engineering [_post_]({{ sites.url }})   [_prof_site_](https://sundong.kim/courses/dataeng23sp/)
+- AI Core technology based project 1 [_post_]({{ sites.url }})
+- Digital Signal Processing [_post_]({{ sites.url }})
+- Undergraduate Thesis Research 1 [_post_]({{ sites.url }})
+
+## 2022년 백업
+
+작년에 수강한 과목들 복습 겸 업로드 해볼까 한다.
+
+- Real Analysis [_post_]({{ sites.url }})
+- random process [_post_]({{ sites.url }})
+
+## 주요과목 백업
+
+주요한 과목도 복습을 하려고 한다.
+
+- Linear Algebra [_post_]({{ sites.url }})

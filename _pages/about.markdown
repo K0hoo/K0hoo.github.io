@@ -8,14 +8,16 @@ author_profile: true
 > [CV download]({{ site.url }}/download/younghookwon_cv.pdf)
 
 <div id='CV'>
-    <center>younghookwon@gm.gist.ac.kr</center>
+    <center><a href='mailto:younghookwon@gm.gist.ac.kr'>younghookwon@gm.gist.ac.kr</a></center>
     <hr>
     <div class='big_entry'>
         <div class='sub_title font_bold_hard'>Education</div>
         <div class='entry_component'>
             <div class='component_col col_left'>
                 <div class='component_title font_bold'>
-                    Gwangju Institute of Science and Technology(GIST)
+                    <a href='https://www.gist.ac.kr/kr/main.html' target='blank'>
+                        Gwangju Institute of Science and Technology(GIST)
+                    </a>
                 </div>
                 <div class='conponent_list'>
                     <div class='component_li'>Bachelor of Science in <span class='font_bold'>Electrical Engineering and Computer Science</span></div>
@@ -38,8 +40,12 @@ author_profile: true
                     Research Intern
                 </div>
                 <div class='conponent_list'>
-                    <div class='component_li'>Speech and Audio Processing Lab(SAPL), GIST</div>
-                    <div class='component_li'>Advisor: JongWon Shin</div>
+                    <div class='component_li'>
+                        <a href='https://sapl.gist.ac.kr/'>
+                            Speech and Audio Processing Lab(SAPL), GIST
+                        </a>
+                    </div>
+                    <div class='component_li'>Advisor: <a href='https://scholar.google.com/citations?user=-UyXLxcAAAAJ&hl=en' target='blank'>JongWon Shin</a></div>
                     <div class='component_li'>Research Area: Speech Enhancement</div>
                 </div>
             </div>
