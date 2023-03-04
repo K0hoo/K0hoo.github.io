@@ -13,10 +13,10 @@ comments: false
 - Digital Speech Processing [_post_]({{ sites.url }}/categories/#dssp)
 - Swimming
 - Abstract Algebra [_post_]({{ sites.url }}/categories/#aa)
-- Data Engineering [_post_]({{ sites.url }}/categories/#de) [_prof_site_](https://sundong.kim/courses/dataeng23sp/)
+- Data Engineering [_post_]({{ sites.url }}/categories/#de) [_prof_site_](https://sundong.kim/courses/dataeng23sp/){:target="_blank"}
 - AI Core technology based project 1 [_post_]({{ sites.url }}/categories/#pbl)
 - Digital Signal Processing [_post_]({{ sites.url }}/categories/#dsp)
-- Undergraduate Thesis Research 1 [_post_]({{ sites.url }}}/categories/#sapl_intern)
+- Undergraduate Thesis Research 1 [_post_]({{ sites.url }}}/categories/#intern)
 
 ## 2022년 백업
 
