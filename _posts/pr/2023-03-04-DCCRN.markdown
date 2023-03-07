@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /paper_review/1
-title: "DCCRN"
+title: "DCCRN: Deep Complex Convolution Recurrent Network for Phase-Aware Speech Enhancement"
 date: 2023-03-04
 categories: paper model
 author_profile: true
