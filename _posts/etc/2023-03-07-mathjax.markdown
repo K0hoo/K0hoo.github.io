@@ -1,0 +1,39 @@
+---
+layout: single
+permalink: /etc/1
+title: "github page markdown에 latex(mathjax)사용하기"
+date: 2023-03-07
+categories: github_page
+author_profile: true
+comments: true
+---
+
+## markdown 에 latex 쓰기
+
+html안에 \\(\LaTeX\\)를 넣기 위해서 [mathjax][mathjax_homepage]를 사용한다.
+
+```html
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+```
+
+위의 코드를 `layout/default.hmtl`의 `<head></head>` tag안에 넣어주면 mathjax를 사용할 수 있다.
+> 어떻게든 위의 javascript 코드가 브라우저에 전달만 되면 된다.
+
+code display는 `$$...$$`  
+code inline은 `\\(...\\)` 를 사용한다.
+
+[mathjax docs][mathjax_doc]에 들어가면 code inline을 위해서는 `\(...\)`를 사용하라고 하지만 markdown에서 `\(`, `\)`를 escape char로 인식하기 때문에 위와 같이 입력해야 한다.
+
+- 예시
+
+일차방정식 \\(y=ax+b\\)는 중요하다.
+
+오일러 공식은 아래와 같다.
+
+$$e^{ix}=\cos{x}+i\sin{x}$$
+
+[mathjax_homepage]: https://www.mathjax.org/#gettingstarted
+[mathjax_doc]: https://docs.mathjax.org/en/latest/basic/mathematics.html
