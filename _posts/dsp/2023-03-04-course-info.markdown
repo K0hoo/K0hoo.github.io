@@ -8,7 +8,7 @@ author_profile: true
 comments: true
 ---
 
-> Course infomation of Digital Signal Processing
+> Course information of Digital Signal Processing
 
 ## Instructor
 

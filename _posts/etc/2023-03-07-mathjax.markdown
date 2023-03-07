@@ -10,7 +10,7 @@ comments: true
 
 ## markdown 에 latex 쓰기
 
-html안에 \\(\LaTeX\\)를 넣기 위해서 [mathjax][mathjax_homepage]를 사용한다.
+html안에 \\(\LaTeX\\)를 넣기 위해서 [mathjax][mathjax_homepage]{:target="_blank"}를 사용한다.
 
 ```html
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -25,7 +25,7 @@ html안에 \\(\LaTeX\\)를 넣기 위해서 [mathjax][mathjax_homepage]를 사�
 code display는 `$$...$$`  
 code inline은 `\\(...\\)` 를 사용한다.
 
-[mathjax docs][mathjax_doc]에 들어가면 code inline을 위해서는 `\(...\)`를 사용하라고 하지만 markdown에서 `\(`, `\)`를 escape char로 인식하기 때문에 위와 같이 입력해야 한다.
+[mathjax docs][mathjax_doc]{:target="_blank"}에 들어가면 code inline을 위해서는 `\(...\)`를 사용하라고 하지만 markdown에서 `\(`, `\)`를 escape char로 인식하기 때문에 위와 같이 입력해야 한다.
 
 - 예시
 
