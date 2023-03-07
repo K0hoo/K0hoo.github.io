@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: true
 ---
 
-> [CV download]({{ site.url }}/download/younghookwon_cv.pdf)
+> [CV download]({{ site.url }}/download/younghookwon_cv.pdf){:target="_blank"}
 
 <div id='CV'>
     <center><a href='mailto:younghookwon@gm.gist.ac.kr'>younghookwon@gm.gist.ac.kr</a></center>

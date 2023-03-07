@@ -12,15 +12,15 @@ comments: true
 
 ## Instructor
 
-[HongKook Kim][prof_site]
+[HongKook Kim][prof_site]{:target="_blank"}
 
 ## Textbook
 
-[A. V. Oppenheim and R. W. Schafer, Discrete-Time Signal Processing, (3nd Ed.), Prentice Hall, 2010.][book_site]
+[A. V. Oppenheim and R. W. Schafer, Discrete-Time Signal Processing, (3nd Ed.), Prentice Hall, 2010.][book_site]{:target="_blank"}
 
 ## Reference
 
-[online class][class_site]
+[online class][class_site]{:target="_blank"}
 
 ## Evaluation
 
