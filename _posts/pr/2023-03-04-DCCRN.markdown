@@ -55,7 +55,7 @@ $$
 DCCRN은 mask를 추정한다. 추정하는 mask에 따라서 DCCRN의 유형을 분류한다. 추정한 mask를 $\tilde{M}=\tilde{M}_r+j\tilde{M}_i$라고 할 때, mask의 polar coordiante form은 다음과 같다.
 
 $$
-\tilde{M}_{\text{mag}}=\sqrt{{\tilde{M}_{r}}^{2}+{\tilde{M}_{i}}^{2}}\\
+\tilde{M}_{\text{mag}}=\sqrt{\tilde{M}_{r}^{2}+{\tilde{M}_{i}}^{2}}\\
 \tilde{M}_{\text{phase}}=\text{arctan2}(\tilde{M}_i,\tilde{M}_r)
 $$
 
