@@ -6,6 +6,7 @@ date: 2023-03-04
 categories: paper model
 author_profile: true
 comments: true
+use_math: true
 ---
 
 ## DCCRN: Deep Complex Convolution Recurrent Network for Phase-Aware Speech Enhancement
@@ -40,24 +41,27 @@ DCCRN은 CRN보다 성능적으로 우수하며 DCUNET과는 비슷한데 DCUNET
 
 DCCRN은 CRN의 convolution을 개선하여 DCUNET처럼 complex multiplication을 반영하여 연산한다. Encoder의 경우, convolution kernel을 $W=W_r+jW_i$, input을 $X=X_r+jX_i$라고 하면 다음과 같이 출력한다. $F_{\text{out}}$은 하나의 layer마다의 output을 의미한다.
 
-$$F_{\text{out}}=(X_r*W_r-X_i*W_i)+j(X_r*W_i+X_i*W_r)$$
+$^F_{\text{out}}=(X_r * W_r - X_i * W_i)+j(X_r * W_i + X_i * W_r)^$
 
 Complex LSTM의 real과 imaginary LSTM을 분리하여 각각 $\text{LSTM}_r$, $\text{LSTM}_i$라고 했을 때, complex LSTM의 output은 다음과 같다.
 
-$$
-F_{rr}=\text{LSTM}_r(X_r);~~~F_{ir}=\text{LSTM}_r(X_i)\\
-F_{ri}=\text{LSTM}_i(X_r);~~~F_{ii}=\text{LSTM}_i(X_i)\\
-F_{\text{out}}=(F_{rr}-F_{ii})+j(F_{ri}+F_{ir})
-$$
+$^F_{rr}=\text{LSTM}_r(X_r)^$
+
+$^F_{ir}=\text{LSTM}_r(X_i)^$
+
+$^F_{ri}=\text{LSTM}_i(X_r)^$
+
+$^F_{ii}=\text{LSTM}_i(X_i)^$
+
+$^F_{\text{out}}=(F_{rr}-F_{ii})+j(F_{ri}+F_{ir})^$
 
 ### Target
 
 DCCRN은 mask를 추정한다. 추정하는 mask에 따라서 DCCRN의 유형을 분류한다. 추정한 mask를 $\tilde{M}=\tilde{M}_r+j\tilde{M}_i$라고 할 때, mask의 polar coordiante form은 다음과 같다.
 
-$$
-\tilde{M}_{\text{mag}}=\sqrt{\tilde{M}_{r}^{2}+{\tilde{M}_{i}}^{2}}\\
-\tilde{M}_{\text{phase}}=\text{arctan2}(\tilde{M}_i,\tilde{M}_r)
-$$
+$^\tilde{M}_{\text{mag}}=\sqrt{\tilde{M}_r^2+\tilde{M}_i^2}^$
+
+$^\tilde{M}_{\text{phase}}=\text{arctan2}(\tilde{M}_i,\tilde{M}_r)^$
 
 [yun_liu]: https://scholar.google.com/citations?user=5mbpi0kAAAAJ&hl=ko&oi=sra
 [dccrn_pdf]: {{ sites.url }}/download/posts/pr/dccrn.pdf
