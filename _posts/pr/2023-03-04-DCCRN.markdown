@@ -98,6 +98,6 @@ $$=\frac{Y_r^2+Y_i^2}{Y_r^2+Y_i^2}\cdot S_r+j\frac{Y_r^2+Y_i^2}{Y_r^2+Y_i^2}S_i=
 DCCRN-CL은 DCCRN-E와 같은 target에 complex LSTM을 사용한 모델이다.
 
 [yun_liu]: https://scholar.google.com/citations?user=5mbpi0kAAAAJ&hl=ko&oi=sra
-[dccrn_pdf]: {{ sites.url }}/download/posts/pr/1/dccrn.pdf
+[dccrn_pdf]: http://www.interspeech2020.org/index.php?m=content&c=index&a=show&catid=404&id=814
 [dccrn_summary]: {{ sites.url }}/download/posts/pr/1/dccrn_summary.pdf
 [CSM]: https://ieeexplore.ieee.org/document/8682834
