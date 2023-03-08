@@ -1,9 +1,9 @@
 ---
 layout: single
-permalink: /dsp/1
-title: "Digital Signal Processing Course Info"
+permalink: /aa/1
+title: "Abstract Algebra Course Info"
 date: 2023-03-04
-categories: dsp
+categories: aa
 author_profile: true
 comments: false
 ---
