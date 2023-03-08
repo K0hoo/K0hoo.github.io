@@ -2,7 +2,7 @@
 layout: single
 permalink: /aa/2
 title: "Abstract Algebra Course Info"
-date: 2023-03-04
+date: 2023-03-08
 categories: aa
 author_profile: true
 comments: true
