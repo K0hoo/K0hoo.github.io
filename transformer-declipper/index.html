@@ -131,6 +131,10 @@
         </header>
         <p class="author"> <b>Younghoo Kwon</b> and <b>Jung-Woo Choi</b></p>
         <p class="affiliation">School of Electrical Engineering, KAIST</p>
+        <p style="text-align: center; font-size: 32px;">[
+            <a href="https://arxiv.org/abs/2409.12416" target="_blank">arXiv</a>
+            ]
+        </p>
         <p class="section_title">Abstract</p>
         <p class="abstract"> We present a transformer-based speech-declipping model that effectively recovers clipped signals across a wide range of input signal-to-distortion ratios (SDRs). While recent time-domain deep neural network (DNN)-based declippers have outperformed traditional handcrafted and spectrogram-based DNN approaches, they still struggle with low-SDR inputs. To address this, we incorporate a transformer-based architecture that operates in the time-frequency (TF) domain. The TF-transformer architecture has demonstrated remarkable performance in the speech enhancement task for low-SDR signals but cannot be optimal for the time-domain artifact like clipping. To overcome the limitations of spectrogram-based DNNs, we design an extra convolutional block that directly extracts temporal features from time-domain waveforms. The joint analysis of complex spectrogram and learned temporal features allows the model to improve performance on both high- and low-SDR inputs. Our approach also preserves the unclipped portions of the speech signal during processing, preventing degradation typically seen when only spectral information is used. In evaluations on the VoiceBank-DEMAND and DNS challenge datasets, the proposed model consistently outperformed state-of-the-art (SOTA) declipping models across various metrics, demonstrating its robustness and generalizability. </p>
         <p class="section_title">Overall Architecture</p>
